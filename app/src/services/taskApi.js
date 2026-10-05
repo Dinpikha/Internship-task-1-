@@ -1,4 +1,4 @@
-const API_URL = " http://127.0.0.1:8000" || 'https://internship-task-1-qdq4.onrender.com'
+const API_URL =  'https://internship-task-1-qdq4.onrender.com'
 export const getTasks = async () => {
   const response = await fetch(`${API_URL}/tasks/`)
 
