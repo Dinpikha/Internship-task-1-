@@ -73,7 +73,7 @@ const loadTasks = async () => {
 }
   return (<>
    <DashboardHeader onTasksChanged={loadTasks} />
-   <StatsCards/>
+   <StatsCards tasks={tasks} />
    <SearchFilter 
         search={search}
         setSearch={setSearch}
